@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jayfella'
+version '1.0.0'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    implementation "org.jmonkeyengine:jme3-core:3.3.2-stable"
+    implementation "org.jmonkeyengine:jme3-desktop:3.3.2-stable"
+    implementation "org.jmonkeyengine:jme3-lwjgl:3.3.2-stable"
+
+    implementation "com.simsilica:lemur:1.13.0"
+    implementation "org.codehaus.groovy:groovy-all:3.0.3"
+
+    compileOnly "org.jetbrains:annotations:19.0.0"
+
+}
