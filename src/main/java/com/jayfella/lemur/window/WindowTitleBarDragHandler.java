@@ -139,8 +139,6 @@ public class WindowTitleBarDragHandler extends DefaultCursorListener {
 
         // Figure out how far away the center of the spatial is
         Vector3f pos = basePosition;
-        Vector3f localPos = pos.subtract(cam.getLocation());
-        float dist = cam.getDirection().dot(localPos);
 
         // Figure out what one "unit" up and down would be
         // at this distance.
