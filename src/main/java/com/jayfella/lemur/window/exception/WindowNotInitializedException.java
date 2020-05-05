@@ -2,6 +2,8 @@ package com.jayfella.lemur.window.exception;
 
 public class WindowNotInitializedException extends RuntimeException {
 
+    private static final long serialVersionUID = -6317451910804398766L;
+
     public WindowNotInitializedException() {
     }
 
